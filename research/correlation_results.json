@@ -1,0 +1,158 @@
+{
+ "from": "2021-08-16",
+ "to": "2026-10-26",
+ "days": 1898,
+ "price_daily": {
+  "BTC-ETH": 0.84,
+  "BTC-SOL": 0.71,
+  "ETH-SOL": 0.72
+ },
+ "price_weekly": {
+  "BTC-ETH": 0.8,
+  "BTC-SOL": 0.651,
+  "ETH-SOL": 0.647
+ },
+ "price_by_year": {
+  "2021": {
+   "BTC-ETH": 0.83,
+   "BTC-SOL": 0.416,
+   "ETH-SOL": 0.495
+  },
+  "2022": {
+   "BTC-ETH": 0.894,
+   "BTC-SOL": 0.795,
+   "ETH-SOL": 0.825
+  },
+  "2023": {
+   "BTC-ETH": 0.827,
+   "BTC-SOL": 0.612,
+   "ETH-SOL": 0.61
+  },
+  "2024": {
+   "BTC-ETH": 0.796,
+   "BTC-SOL": 0.748,
+   "ETH-SOL": 0.697
+  },
+  "2025": {
+   "BTC-ETH": 0.816,
+   "BTC-SOL": 0.8,
+   "ETH-SOL": 0.791
+  },
+  "2026": {
+   "BTC-ETH": 0.912,
+   "BTC-SOL": 0.877,
+   "ETH-SOL": 0.878
+  }
+ },
+ "price_on_btc_down_days": {
+  "n": 177,
+  "BTC-ETH": 0.751,
+  "BTC-SOL": 0.473,
+  "ETH-SOL": 0.615
+ },
+ "price_on_btc_down_days_avg": {
+  "BTC": -0.0495,
+  "ETH": -0.0579,
+  "SOL": -0.0656
+ },
+ "price_rolling90": {
+  "BTC-ETH": {
+   "min": 0.674,
+   "median": 0.863,
+   "max": 0.957
+  },
+  "BTC-SOL": {
+   "min": 0.275,
+   "median": 0.766,
+   "max": 0.933
+  },
+  "ETH-SOL": {
+   "min": 0.379,
+   "median": 0.795,
+   "max": 0.934
+  }
+ },
+ "strat_daily": {
+  "BTC-ETH": 0.537,
+  "BTC-SOL": 0.332,
+  "ETH-SOL": 0.349
+ },
+ "strat_daily_when_any_long": {
+  "BTC-ETH": 0.537,
+  "BTC-SOL": 0.33,
+  "ETH-SOL": 0.349
+ },
+ "vol_ann": {
+  "BTC": 0.519,
+  "ETH": 0.696,
+  "SOL": 0.953
+ },
+ "beta_to_btc": {
+  "ETH": 1.127,
+  "SOL": 1.304
+ },
+ "signal_overlap": {
+  "BTC-ETH": {
+   "same_state": 0.844,
+   "j_long_given_i_long": 0.703
+  },
+  "BTC-SOL": {
+   "same_state": 0.809,
+   "j_long_given_i_long": 0.679
+  },
+  "ETH-SOL": {
+   "same_state": 0.8,
+   "j_long_given_i_long": 0.679
+  }
+ },
+ "n_long_dist": {
+  "0": 0.567,
+  "1": 0.138,
+  "2": 0.135,
+  "3": 0.16
+ },
+ "single_vs_portfolio_strategy": {
+  "BTC": {
+   "cagr": 0.083,
+   "sharpe": 0.431,
+   "maxdd": -0.4938
+  },
+  "ETH": {
+   "cagr": 0.0812,
+   "sharpe": 0.394,
+   "maxdd": -0.4457
+  },
+  "SOL": {
+   "cagr": 0.9298,
+   "sharpe": 1.479,
+   "maxdd": -0.4761
+  },
+  "EQUAL_1/3": {
+   "cagr": 0.3579,
+   "sharpe": 1.161,
+   "maxdd": -0.3513
+  }
+ },
+ "single_vs_portfolio_bh": {
+  "BTC": {
+   "cagr": 0.1077,
+   "sharpe": 0.457,
+   "maxdd": -0.7667
+  },
+  "ETH": {
+   "cagr": -0.0661,
+   "sharpe": 0.248,
+   "maxdd": -0.7935
+  },
+  "SOL": {
+   "cagr": 0.1292,
+   "sharpe": 0.605,
+   "maxdd": -0.9627
+  },
+  "EQUAL_1/3": {
+   "cagr": 0.1163,
+   "sharpe": 0.498,
+   "maxdd": -0.8546
+  }
+ }
+}
