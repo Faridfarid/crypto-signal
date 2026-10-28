@@ -1,0 +1,1486 @@
+{
+ "generated": "2026-10-28T05:50:34.596073",
+ "cut": "2023-10-01",
+ "coins": {
+  "BTC-USD": {
+   "first_candle": "2015-07-20",
+   "n_days": 4118,
+   "main": {
+    "all": {
+     "ret": 242.9855,
+     "cagr": 0.6398,
+     "sharpe": 1.468,
+     "maxdd": -0.4938,
+     "days": 4057
+    },
+    "unseen": {
+     "ret": 115.9153,
+     "cagr": 0.8079,
+     "sharpe": 1.604,
+     "maxdd": -0.4938,
+     "days": 2935
+    },
+    "seen": {
+     "ret": 1.0869,
+     "cagr": 0.2704,
+     "sharpe": 1.031,
+     "maxdd": -0.238,
+     "days": 1122
+    }
+   },
+   "bh": {
+    "all": {
+     "ret": 341.9291,
+     "cagr": 0.6908,
+     "sharpe": 1.124,
+     "maxdd": -0.838,
+     "days": 4057
+    },
+    "unseen": {
+     "ret": 114.5587,
+     "cagr": 0.8052,
+     "sharpe": 1.179,
+     "maxdd": -0.838,
+     "days": 2935
+    },
+    "seen": {
+     "ret": 1.9676,
+     "cagr": 0.4246,
+     "sharpe": 0.987,
+     "maxdd": -0.5308,
+     "days": 1122
+    }
+   },
+   "trades": {
+    "all": 134,
+    "unseen": 93,
+    "winrate_all": 0.463,
+    "avg_win": 0.1671,
+    "avg_loss": -0.0451,
+    "exposure": 0.354
+   },
+   "yearly": {
+    "2015": {
+     "strat": 0.7523,
+     "bh": 0.8445
+    },
+    "2016": {
+     "strat": 0.9372,
+     "bh": 1.2618
+    },
+    "2017": {
+     "strat": 7.089,
+     "bh": 13.2424
+    },
+    "2018": {
+     "strat": -0.2616,
+     "bh": -0.7337
+    },
+    "2019": {
+     "strat": 0.4957,
+     "bh": 0.9409
+    },
+    "2020": {
+     "strat": 1.8722,
+     "bh": 3.0457
+    },
+    "2021": {
+     "strat": 0.6577,
+     "bh": 0.594
+    },
+    "2022": {
+     "strat": -0.4159,
+     "bh": -0.6423
+    },
+    "2023": {
+     "strat": 0.7704,
+     "bh": 1.558
+    },
+    "2024": {
+     "strat": 0.3787,
+     "bh": 1.2074
+    },
+    "2025": {
+     "strat": -0.0389,
+     "bh": -0.0627
+    },
+    "2026": {
+     "strat": 0.2332,
+     "bh": -0.0856
+    }
+   },
+   "zero": {
+    "all": {
+     "ret": 196.7138,
+     "cagr": 0.6091,
+     "sharpe": 1.401,
+     "maxdd": -0.527,
+     "days": 4057
+    },
+    "unseen": {
+     "ret": 94.8294,
+     "cagr": 0.7637,
+     "sharpe": 1.52,
+     "maxdd": -0.527,
+     "days": 2935
+    },
+    "seen": {
+     "ret": 1.0632,
+     "cagr": 0.2657,
+     "sharpe": 1.035,
+     "maxdd": -0.2118,
+     "days": 1122
+    }
+   },
+   "plain": {
+    "all": {
+     "ret": 146.8931,
+     "cagr": 0.5676,
+     "sharpe": 1.203,
+     "maxdd": -0.6173,
+     "days": 4057
+    },
+    "unseen": {
+     "ret": 70.8016,
+     "cagr": 0.7015,
+     "sharpe": 1.301,
+     "maxdd": -0.6173,
+     "days": 2935
+    },
+    "seen": {
+     "ret": 1.0597,
+     "cagr": 0.265,
+     "sharpe": 0.901,
+     "maxdd": -0.3579,
+     "days": 1122
+    }
+   },
+   "std": {
+    "all": {
+     "ret": 246.2681,
+     "cagr": 0.6418,
+     "sharpe": 1.313,
+     "maxdd": -0.5385,
+     "days": 4057
+    },
+    "unseen": {
+     "ret": 143.1475,
+     "cagr": 0.8555,
+     "sharpe": 1.483,
+     "maxdd": -0.5385,
+     "days": 2935
+    },
+    "seen": {
+     "ret": 0.7154,
+     "cagr": 0.1919,
+     "sharpe": 0.72,
+     "maxdd": -0.3638,
+     "days": 1122
+    }
+   },
+   "grid_unseen": {
+    "median_sharpe": 1.482,
+    "pct_positive": 1.0,
+    "pct_beat_bh": 0.994
+   }
+  },
+  "ETH-USD": {
+   "first_candle": "2016-05-18",
+   "n_days": 3813,
+   "main": {
+    "all": {
+     "ret": 402.4986,
+     "cagr": 0.7927,
+     "sharpe": 1.343,
+     "maxdd": -0.4457,
+     "days": 3752
+    },
+    "unseen": {
+     "ret": 196.2461,
+     "cagr": 1.0821,
+     "sharpe": 1.511,
+     "maxdd": -0.4444,
+     "days": 2630
+    },
+    "seen": {
+     "ret": 1.0457,
+     "cagr": 0.2622,
+     "sharpe": 0.827,
+     "maxdd": -0.4457,
+     "days": 1122
+    }
+   },
+   "bh": {
+    "all": {
+     "ret": 208.4161,
+     "cagr": 0.6819,
+     "sharpe": 1.024,
+     "maxdd": -0.9402,
+     "days": 3752
+    },
+    "unseen": {
+     "ret": 149.7978,
+     "cagr": 1.006,
+     "sharpe": 1.194,
+     "maxdd": -0.9402,
+     "days": 2630
+    },
+    "seen": {
+     "ret": 0.3887,
+     "cagr": 0.1127,
+     "sharpe": 0.489,
+     "maxdd": -0.6759,
+     "days": 1122
+    }
+   },
+   "trades": {
+    "all": 117,
+    "unseen": 82,
+    "winrate_all": 0.436,
+    "avg_win": 0.2542,
+    "avg_loss": -0.0616,
+    "exposure": 0.313
+   },
+   "yearly": {
+    "2016": {
+     "strat": -0.2909,
+     "bh": -0.2635
+    },
+    "2017": {
+     "strat": 19.4088,
+     "bh": 89.8382
+    },
+    "2018": {
+     "strat": 0.1848,
+     "bh": -0.8237
+    },
+    "2019": {
+     "strat": 0.5762,
+     "bh": -0.0162
+    },
+    "2020": {
+     "strat": 1.7981,
+     "bh": 4.7405
+    },
+    "2021": {
+     "strat": 1.7904,
+     "bh": 3.9815
+    },
+    "2022": {
+     "strat": -0.0214,
+     "bh": -0.6748
+    },
+    "2023": {
+     "strat": 0.1442,
+     "bh": 0.9084
+    },
+    "2024": {
+     "strat": 0.068,
+     "bh": 0.4601
+    },
+    "2025": {
+     "strat": 0.2741,
+     "bh": -0.1092
+    },
+    "2026": {
+     "strat": 0.2551,
+     "bh": -0.2179
+    }
+   },
+   "zero": {
+    "all": {
+     "ret": 464.6842,
+     "cagr": 0.8178,
+     "sharpe": 1.354,
+     "maxdd": -0.4638,
+     "days": 3752
+    },
+    "unseen": {
+     "ret": 276.1092,
+     "cagr": 1.1827,
+     "sharpe": 1.569,
+     "maxdd": -0.3993,
+     "days": 2630
+    },
+    "seen": {
+     "ret": 0.6805,
+     "cagr": 0.184,
+     "sharpe": 0.649,
+     "maxdd": -0.4638,
+     "days": 1122
+    }
+   },
+   "plain": {
+    "all": {
+     "ret": 502.8314,
+     "cagr": 0.8318,
+     "sharpe": 1.248,
+     "maxdd": -0.677,
+     "days": 3752
+    },
+    "unseen": {
+     "ret": 234.5494,
+     "cagr": 1.1341,
+     "sharpe": 1.406,
+     "maxdd": -0.677,
+     "days": 2630
+    },
+    "seen": {
+     "ret": 1.139,
+     "cagr": 0.2806,
+     "sharpe": 0.765,
+     "maxdd": -0.5141,
+     "days": 1122
+    }
+   },
+   "std": {
+    "all": {
+     "ret": 240.8913,
+     "cagr": 0.7056,
+     "sharpe": 1.14,
+     "maxdd": -0.707,
+     "days": 3752
+    },
+    "unseen": {
+     "ret": 233.3036,
+     "cagr": 1.1325,
+     "sharpe": 1.408,
+     "maxdd": -0.707,
+     "days": 2630
+    },
+    "seen": {
+     "ret": 0.0324,
+     "cagr": 0.0104,
+     "sharpe": 0.246,
+     "maxdd": -0.6003,
+     "days": 1122
+    }
+   },
+   "grid_unseen": {
+    "median_sharpe": 1.424,
+    "pct_positive": 1.0,
+    "pct_beat_bh": 0.889
+   }
+  },
+  "SOL-USD": {
+   "first_candle": "2021-06-17",
+   "n_days": 1959,
+   "main": {
+    "all": {
+     "ret": 29.5226,
+     "cagr": 0.9298,
+     "sharpe": 1.479,
+     "maxdd": -0.4761,
+     "days": 1898
+    },
+    "unseen": {
+     "ret": 1.6976,
+     "cagr": 0.5948,
+     "sharpe": 1.068,
+     "maxdd": -0.4761,
+     "days": 776
+    },
+    "seen": {
+     "ret": 10.3148,
+     "cagr": 1.2017,
+     "sharpe": 1.827,
+     "maxdd": -0.3658,
+     "days": 1122
+    }
+   },
+   "bh": {
+    "all": {
+     "ret": 0.8811,
+     "cagr": 0.1292,
+     "sharpe": 0.605,
+     "maxdd": -0.9627,
+     "days": 1898
+    },
+    "unseen": {
+     "ret": -0.6012,
+     "cagr": -0.3511,
+     "sharpe": 0.173,
+     "maxdd": -0.9627,
+     "days": 776
+    },
+    "seen": {
+     "ret": 3.7172,
+     "cagr": 0.6564,
+     "sharpe": 1.019,
+     "maxdd": -0.7626,
+     "days": 1122
+    }
+   },
+   "trades": {
+    "all": 52,
+    "unseen": 22,
+    "winrate_all": 0.538,
+    "avg_win": 0.2346,
+    "avg_loss": -0.0719,
+    "exposure": 0.3
+   },
+   "yearly": {
+    "2021": {
+     "strat": 1.4945,
+     "bh": 2.1733
+    },
+    "2022": {
+     "strat": -0.2273,
+     "bh": -0.9414
+    },
+    "2023": {
+     "strat": 3.5572,
+     "bh": 9.2108
+    },
+    "2024": {
+     "strat": 1.4966,
+     "bh": 0.8566
+    },
+    "2025": {
+     "strat": 0.0731,
+     "bh": -0.341
+    },
+    "2026": {
+     "strat": 0.2969,
+     "bh": -0.1903
+    }
+   },
+   "zero": {
+    "all": {
+     "ret": 16.5626,
+     "cagr": 0.7352,
+     "sharpe": 1.271,
+     "maxdd": -0.686,
+     "days": 1898
+    },
+    "unseen": {
+     "ret": 0.5785,
+     "cagr": 0.2395,
+     "sharpe": 0.642,
+     "maxdd": -0.686,
+     "days": 776
+    },
+    "seen": {
+     "ret": 10.1264,
+     "cagr": 1.1897,
+     "sharpe": 1.811,
+     "maxdd": -0.3514,
+     "days": 1122
+    }
+   },
+   "plain": {
+    "all": {
+     "ret": 13.9343,
+     "cagr": 0.6819,
+     "sharpe": 1.099,
+     "maxdd": -0.7744,
+     "days": 1898
+    },
+    "unseen": {
+     "ret": 0.3829,
+     "cagr": 0.1647,
+     "sharpe": 0.571,
+     "maxdd": -0.7744,
+     "days": 776
+    },
+    "seen": {
+     "ret": 9.7991,
+     "cagr": 1.1686,
+     "sharpe": 1.586,
+     "maxdd": -0.4767,
+     "days": 1122
+    }
+   },
+   "std": {
+    "all": {
+     "ret": 5.2467,
+     "cagr": 0.4224,
+     "sharpe": 0.848,
+     "maxdd": -0.8201,
+     "days": 1898
+    },
+    "unseen": {
+     "ret": 0.502,
+     "cagr": 0.2109,
+     "sharpe": 0.628,
+     "maxdd": -0.8201,
+     "days": 776
+    },
+    "seen": {
+     "ret": 3.1589,
+     "cagr": 0.5899,
+     "sharpe": 1.073,
+     "maxdd": -0.61,
+     "days": 1122
+    }
+   },
+   "grid_unseen": {
+    "median_sharpe": 0.849,
+    "pct_positive": 1.0,
+    "pct_beat_bh": 1.0
+   }
+  },
+  "LTC-USD": {
+   "first_candle": "2016-08-17",
+   "n_days": 3723,
+   "main": {
+    "all": {
+     "ret": 12.3354,
+     "cagr": 0.2946,
+     "sharpe": 0.682,
+     "maxdd": -0.7661,
+     "days": 3662
+    },
+    "unseen": {
+     "ret": 20.1282,
+     "cagr": 0.5502,
+     "sharpe": 0.906,
+     "maxdd": -0.6184,
+     "days": 2540
+    },
+    "seen": {
+     "ret": -0.3688,
+     "cagr": -0.139,
+     "sharpe": -0.096,
+     "maxdd": -0.6423,
+     "days": 1122
+    }
+   },
+   "bh": {
+    "all": {
+     "ret": 13.6907,
+     "cagr": 0.3071,
+     "sharpe": 0.751,
+     "maxdd": -0.9364,
+     "days": 3662
+    },
+    "unseen": {
+     "ret": 16.0907,
+     "cagr": 0.5037,
+     "sharpe": 0.899,
+     "maxdd": -0.9364,
+     "days": 2540
+    },
+    "seen": {
+     "ret": -0.1404,
+     "cagr": -0.048,
+     "sharpe": 0.275,
+     "maxdd": -0.702,
+     "days": 1122
+    }
+   },
+   "trades": {
+    "all": 128,
+    "unseen": 87,
+    "winrate_all": 0.367,
+    "avg_win": 0.2113,
+    "avg_loss": -0.0616,
+    "exposure": 0.328
+   },
+   "yearly": {
+    "2016": {
+     "strat": -0.1842,
+     "bh": 0.1321
+    },
+    "2017": {
+     "strat": 13.6117,
+     "bh": 50.9863
+    },
+    "2018": {
+     "strat": -0.2612,
+     "bh": -0.8689
+    },
+    "2019": {
+     "strat": 0.3086,
+     "bh": 0.3798
+    },
+    "2020": {
+     "strat": 0.3217,
+     "bh": 2.028
+    },
+    "2021": {
+     "strat": 1.0653,
+     "bh": 0.1753
+    },
+    "2022": {
+     "strat": -0.2939,
+     "bh": -0.5206
+    },
+    "2023": {
+     "strat": 0.0141,
+     "bh": 0.0387
+    },
+    "2024": {
+     "strat": 0.1109,
+     "bh": 0.4156
+    },
+    "2025": {
+     "strat": -0.4632,
+     "bh": -0.2557
+    },
+    "2026": {
+     "strat": -0.0074,
+     "bh": -0.2608
+    }
+   },
+   "zero": {
+    "all": {
+     "ret": 8.1537,
+     "cagr": 0.2469,
+     "sharpe": 0.628,
+     "maxdd": -0.7794,
+     "days": 3662
+    },
+    "unseen": {
+     "ret": 15.169,
+     "cagr": 0.4917,
+     "sharpe": 0.856,
+     "maxdd": -0.6038,
+     "days": 2540
+    },
+    "seen": {
+     "ret": -0.4339,
+     "cagr": -0.169,
+     "sharpe": -0.177,
+     "maxdd": -0.6336,
+     "days": 1122
+    }
+   },
+   "plain": {
+    "all": {
+     "ret": 7.9162,
+     "cagr": 0.2437,
+     "sharpe": 0.636,
+     "maxdd": -0.8751,
+     "days": 3662
+    },
+    "unseen": {
+     "ret": 12.3997,
+     "cagr": 0.452,
+     "sharpe": 0.82,
+     "maxdd": -0.8378,
+     "days": 2540
+    },
+    "seen": {
+     "ret": -0.3346,
+     "cagr": -0.1241,
+     "sharpe": 0.007,
+     "maxdd": -0.6508,
+     "days": 1122
+    }
+   },
+   "std": {
+    "all": {
+     "ret": 7.6034,
+     "cagr": 0.2393,
+     "sharpe": 0.633,
+     "maxdd": -0.8658,
+     "days": 3662
+    },
+    "unseen": {
+     "ret": 17.7423,
+     "cagr": 0.5237,
+     "sharpe": 0.874,
+     "maxdd": -0.7583,
+     "days": 2540
+    },
+    "seen": {
+     "ret": -0.541,
+     "cagr": -0.2238,
+     "sharpe": -0.22,
+     "maxdd": -0.7061,
+     "days": 1122
+    }
+   },
+   "grid_unseen": {
+    "median_sharpe": 0.875,
+    "pct_positive": 1.0,
+    "pct_beat_bh": 0.392
+   }
+  },
+  "LINK-USD": {
+   "first_candle": "2019-06-27",
+   "n_days": 2680,
+   "main": {
+    "all": {
+     "ret": 3.8488,
+     "cagr": 0.2461,
+     "sharpe": 0.659,
+     "maxdd": -0.7449,
+     "days": 2619
+    },
+    "unseen": {
+     "ret": 4.9963,
+     "cagr": 0.5476,
+     "sharpe": 0.988,
+     "maxdd": -0.7086,
+     "days": 1497
+    },
+    "seen": {
+     "ret": -0.1914,
+     "cagr": -0.0668,
+     "sharpe": 0.122,
+     "maxdd": -0.5776,
+     "days": 1122
+    }
+   },
+   "bh": {
+    "all": {
+     "ret": 4.4511,
+     "cagr": 0.2666,
+     "sharpe": 0.745,
+     "maxdd": -0.9019,
+     "days": 2619
+    },
+    "unseen": {
+     "ret": 2.9229,
+     "cagr": 0.3955,
+     "sharpe": 0.868,
+     "maxdd": -0.9019,
+     "days": 1497
+    },
+    "seen": {
+     "ret": 0.3896,
+     "cagr": 0.113,
+     "sharpe": 0.546,
+     "maxdd": -0.7541,
+     "days": 1122
+    }
+   },
+   "trades": {
+    "all": 91,
+    "unseen": 50,
+    "winrate_all": 0.407,
+    "avg_win": 0.1911,
+    "avg_loss": -0.0756,
+    "exposure": 0.328
+   },
+   "yearly": {
+    "2019": {
+     "strat": 0.0543,
+     "bh": -0.1572
+    },
+    "2020": {
+     "strat": 3.5711,
+     "bh": 5.3915
+    },
+    "2021": {
+     "strat": 1.0207,
+     "bh": 0.7363
+    },
+    "2022": {
+     "strat": -0.478,
+     "bh": -0.7148
+    },
+    "2023": {
+     "strat": 0.1959,
+     "bh": 1.6816
+    },
+    "2024": {
+     "strat": -0.0134,
+     "bh": 0.3376
+    },
+    "2025": {
+     "strat": -0.2123,
+     "bh": -0.3901
+    },
+    "2026": {
+     "strat": 0.0264,
+     "bh": -0.0658
+    }
+   },
+   "zero": {
+    "all": {
+     "ret": 5.9731,
+     "cagr": 0.3108,
+     "sharpe": 0.744,
+     "maxdd": -0.6446,
+     "days": 2619
+    },
+    "unseen": {
+     "ret": 4.9439,
+     "cagr": 0.5443,
+     "sharpe": 0.982,
+     "maxdd": -0.6446,
+     "days": 1497
+    },
+    "seen": {
+     "ret": 0.1732,
+     "cagr": 0.0533,
+     "sharpe": 0.346,
+     "maxdd": -0.4925,
+     "days": 1122
+    }
+   },
+   "plain": {
+    "all": {
+     "ret": 3.6939,
+     "cagr": 0.2405,
+     "sharpe": 0.653,
+     "maxdd": -0.8231,
+     "days": 2619
+    },
+    "unseen": {
+     "ret": 5.4165,
+     "cagr": 0.5734,
+     "sharpe": 0.964,
+     "maxdd": -0.7799,
+     "days": 1497
+    },
+    "seen": {
+     "ret": -0.2685,
+     "cagr": -0.0967,
+     "sharpe": 0.146,
+     "maxdd": -0.7123,
+     "days": 1122
+    }
+   },
+   "std": {
+    "all": {
+     "ret": 2.3833,
+     "cagr": 0.1851,
+     "sharpe": 0.59,
+     "maxdd": -0.8352,
+     "days": 2619
+    },
+    "unseen": {
+     "ret": 5.6286,
+     "cagr": 0.5859,
+     "sharpe": 0.977,
+     "maxdd": -0.6696,
+     "days": 1497
+    },
+    "seen": {
+     "ret": -0.4896,
+     "cagr": -0.1965,
+     "sharpe": -0.034,
+     "maxdd": -0.8352,
+     "days": 1122
+    }
+   },
+   "grid_unseen": {
+    "median_sharpe": 0.798,
+    "pct_positive": 1.0,
+    "pct_beat_bh": 0.356
+   }
+  },
+  "ADA-USD": {
+   "first_candle": "2021-03-18",
+   "n_days": 2050,
+   "main": {
+    "all": {
+     "ret": -0.1136,
+     "cagr": -0.0219,
+     "sharpe": 0.194,
+     "maxdd": -0.736,
+     "days": 1989
+    },
+    "unseen": {
+     "ret": -0.2475,
+     "cagr": -0.1128,
+     "sharpe": -0.039,
+     "maxdd": -0.4532,
+     "days": 867
+    },
+    "seen": {
+     "ret": 0.178,
+     "cagr": 0.0547,
+     "sharpe": 0.355,
+     "maxdd": -0.736,
+     "days": 1122
+    }
+   },
+   "bh": {
+    "all": {
+     "ret": -0.9107,
+     "cagr": -0.3581,
+     "sharpe": -0.046,
+     "maxdd": -0.9517,
+     "days": 1989
+    },
+    "unseen": {
+     "ret": -0.89,
+     "cagr": -0.6052,
+     "sharpe": -0.571,
+     "maxdd": -0.9185,
+     "days": 867
+    },
+    "seen": {
+     "ret": -0.188,
+     "cagr": -0.0655,
+     "sharpe": 0.354,
+     "maxdd": -0.8834,
+     "days": 1122
+    }
+   },
+   "trades": {
+    "all": 52,
+    "unseen": 15,
+    "winrate_all": 0.308,
+    "avg_win": 0.3327,
+    "avg_loss": -0.0968,
+    "exposure": 0.251
+   },
+   "yearly": {
+    "2021": {
+     "strat": -0.0115,
+     "bh": -0.4338
+    },
+    "2022": {
+     "strat": -0.2841,
+     "bh": -0.8123
+    },
+    "2023": {
+     "strat": 1.0365,
+     "bh": 1.4165
+    },
+    "2024": {
+     "strat": 1.0588,
+     "bh": 0.4209
+    },
+    "2025": {
+     "strat": -0.5367,
+     "bh": -0.6052
+    },
+    "2026": {
+     "strat": -0.3552,
+     "bh": -0.3802
+    }
+   },
+   "zero": {
+    "all": {
+     "ret": -0.4903,
+     "cagr": -0.1163,
+     "sharpe": -0.015,
+     "maxdd": -0.7129,
+     "days": 1989
+    },
+    "unseen": {
+     "ret": -0.6027,
+     "cagr": -0.322,
+     "sharpe": -0.591,
+     "maxdd": -0.6952,
+     "days": 867
+    },
+    "seen": {
+     "ret": 0.2828,
+     "cagr": 0.0844,
+     "sharpe": 0.408,
+     "maxdd": -0.7032,
+     "days": 1122
+    }
+   },
+   "plain": {
+    "all": {
+     "ret": -0.2515,
+     "cagr": -0.0518,
+     "sharpe": 0.231,
+     "maxdd": -0.7753,
+     "days": 1989
+    },
+    "unseen": {
+     "ret": -0.4673,
+     "cagr": -0.2329,
+     "sharpe": -0.082,
+     "maxdd": -0.7644,
+     "days": 867
+    },
+    "seen": {
+     "ret": 0.4051,
+     "cagr": 0.117,
+     "sharpe": 0.485,
+     "maxdd": -0.7753,
+     "days": 1122
+    }
+   },
+   "std": {
+    "all": {
+     "ret": -0.6459,
+     "cagr": -0.1735,
+     "sharpe": 0.007,
+     "maxdd": -0.8896,
+     "days": 1989
+    },
+    "unseen": {
+     "ret": -0.4437,
+     "cagr": -0.2188,
+     "sharpe": -0.064,
+     "maxdd": -0.7326,
+     "days": 867
+    },
+    "seen": {
+     "ret": -0.3634,
+     "cagr": -0.1367,
+     "sharpe": 0.064,
+     "maxdd": -0.8896,
+     "days": 1122
+    }
+   },
+   "grid_unseen": {
+    "median_sharpe": -0.224,
+    "pct_positive": 0.156,
+    "pct_beat_bh": 0.858
+   }
+  },
+  "DOGE-USD": {
+   "first_candle": "2021-06-03",
+   "n_days": 1973,
+   "main": {
+    "all": {
+     "ret": 0.8687,
+     "cagr": 0.1268,
+     "sharpe": 0.479,
+     "maxdd": -0.6723,
+     "days": 1912
+    },
+    "unseen": {
+     "ret": -0.2291,
+     "cagr": -0.1133,
+     "sharpe": 0.06,
+     "maxdd": -0.6723,
+     "days": 790
+    },
+    "seen": {
+     "ret": 1.424,
+     "cagr": 0.3338,
+     "sharpe": 0.788,
+     "maxdd": -0.533,
+     "days": 1122
+    }
+   },
+   "bh": {
+    "all": {
+     "ret": -0.6199,
+     "cagr": -0.1686,
+     "sharpe": 0.243,
+     "maxdd": -0.8522,
+     "days": 1912
+    },
+    "unseen": {
+     "ret": -0.6961,
+     "cagr": -0.4233,
+     "sharpe": -0.118,
+     "maxdd": -0.8448,
+     "days": 790
+    },
+    "seen": {
+     "ret": 0.2508,
+     "cagr": 0.0755,
+     "sharpe": 0.517,
+     "maxdd": -0.8522,
+     "days": 1122
+    }
+   },
+   "trades": {
+    "all": 53,
+    "unseen": 20,
+    "winrate_all": 0.358,
+    "avg_win": 0.2256,
+    "avg_loss": -0.0778,
+    "exposure": 0.255
+   },
+   "yearly": {
+    "2021": {
+     "strat": -0.1599,
+     "bh": -0.1664
+    },
+    "2022": {
+     "strat": -0.0504,
+     "bh": -0.5878
+    },
+    "2023": {
+     "strat": 0.0981,
+     "bh": 0.2749
+    },
+    "2024": {
+     "strat": 2.2114,
+     "bh": 2.5237
+    },
+    "2025": {
+     "strat": -0.3312,
+     "bh": -0.6282
+    },
+    "2026": {
+     "strat": -0.0068,
+     "bh": -0.3378
+    }
+   },
+   "zero": {
+    "all": {
+     "ret": 0.882,
+     "cagr": 0.1283,
+     "sharpe": 0.482,
+     "maxdd": -0.7523,
+     "days": 1912
+    },
+    "unseen": {
+     "ret": -0.3946,
+     "cagr": -0.2069,
+     "sharpe": -0.123,
+     "maxdd": -0.7523,
+     "days": 790
+    },
+    "seen": {
+     "ret": 2.1085,
+     "cagr": 0.4462,
+     "sharpe": 0.933,
+     "maxdd": -0.532,
+     "days": 1122
+    }
+   },
+   "plain": {
+    "all": {
+     "ret": 0.1133,
+     "cagr": 0.0207,
+     "sharpe": 0.361,
+     "maxdd": -0.8318,
+     "days": 1912
+    },
+    "unseen": {
+     "ret": -0.0269,
+     "cagr": -0.0125,
+     "sharpe": 0.314,
+     "maxdd": -0.7388,
+     "days": 790
+    },
+    "seen": {
+     "ret": 0.144,
+     "cagr": 0.0447,
+     "sharpe": 0.395,
+     "maxdd": -0.8318,
+     "days": 1122
+    }
+   },
+   "std": {
+    "all": {
+     "ret": 0.2361,
+     "cagr": 0.0413,
+     "sharpe": 0.395,
+     "maxdd": -0.8211,
+     "days": 1912
+    },
+    "unseen": {
+     "ret": 0.1148,
+     "cagr": 0.0515,
+     "sharpe": 0.407,
+     "maxdd": -0.6442,
+     "days": 790
+    },
+    "seen": {
+     "ret": 0.1088,
+     "cagr": 0.0342,
+     "sharpe": 0.385,
+     "maxdd": -0.8211,
+     "days": 1122
+    }
+   },
+   "grid_unseen": {
+    "median_sharpe": 0.251,
+    "pct_positive": 0.856,
+    "pct_beat_bh": 0.956
+   }
+  },
+  "AVAX-USD": {
+   "first_candle": "2021-09-30",
+   "n_days": 1854,
+   "main": {
+    "all": {
+     "ret": 3.5664,
+     "cagr": 0.3623,
+     "sharpe": 0.853,
+     "maxdd": -0.5982,
+     "days": 1793
+    },
+    "unseen": {
+     "ret": 0.0076,
+     "cagr": 0.0041,
+     "sharpe": 0.224,
+     "maxdd": -0.3485,
+     "days": 671
+    },
+    "seen": {
+     "ret": 3.532,
+     "cagr": 0.6349,
+     "sharpe": 1.162,
+     "maxdd": -0.5982,
+     "days": 1122
+    }
+   },
+   "bh": {
+    "all": {
+     "ret": -0.919,
+     "cagr": -0.4005,
+     "sharpe": -0.079,
+     "maxdd": -0.9522,
+     "days": 1793
+    },
+    "unseen": {
+     "ret": -0.9165,
+     "cagr": -0.7409,
+     "sharpe": -0.867,
+     "maxdd": -0.9288,
+     "days": 671
+    },
+    "seen": {
+     "ret": -0.0307,
+     "cagr": -0.0101,
+     "sharpe": 0.437,
+     "maxdd": -0.9029,
+     "days": 1122
+    }
+   },
+   "trades": {
+    "all": 46,
+    "unseen": 13,
+    "winrate_all": 0.435,
+    "avg_win": 0.2224,
+    "avg_loss": -0.073,
+    "exposure": 0.27
+   },
+   "yearly": {
+    "2021": {
+     "strat": 0.0539,
+     "bh": -0.0108
+    },
+    "2022": {
+     "strat": -0.2489,
+     "bh": -0.9005
+    },
+    "2023": {
+     "strat": 3.5301,
+     "bh": 2.5409
+    },
+    "2024": {
+     "strat": 0.8171,
+     "bh": -0.076
+    },
+    "2025": {
+     "strat": -0.3565,
+     "bh": -0.6548
+    },
+    "2026": {
+     "strat": 0.089,
+     "bh": -0.2719
+    }
+   },
+   "zero": {
+    "all": {
+     "ret": 2.7401,
+     "cagr": 0.308,
+     "sharpe": 0.769,
+     "maxdd": -0.5339,
+     "days": 1793
+    },
+    "unseen": {
+     "ret": -0.1483,
+     "cagr": -0.0836,
+     "sharpe": 0.047,
+     "maxdd": -0.3786,
+     "days": 671
+    },
+    "seen": {
+     "ret": 3.3913,
+     "cagr": 0.6182,
+     "sharpe": 1.146,
+     "maxdd": -0.5339,
+     "days": 1122
+    }
+   },
+   "plain": {
+    "all": {
+     "ret": 1.2361,
+     "cagr": 0.178,
+     "sharpe": 0.575,
+     "maxdd": -0.7382,
+     "days": 1793
+    },
+    "unseen": {
+     "ret": -0.4756,
+     "cagr": -0.2961,
+     "sharpe": -0.19,
+     "maxdd": -0.6598,
+     "days": 671
+    },
+    "seen": {
+     "ret": 3.2643,
+     "cagr": 0.6029,
+     "sharpe": 1.028,
+     "maxdd": -0.7382,
+     "days": 1122
+    }
+   },
+   "std": {
+    "all": {
+     "ret": 0.1149,
+     "cagr": 0.0224,
+     "sharpe": 0.376,
+     "maxdd": -0.7948,
+     "days": 1793
+    },
+    "unseen": {
+     "ret": -0.5616,
+     "cagr": -0.3615,
+     "sharpe": -0.282,
+     "maxdd": -0.6962,
+     "days": 671
+    },
+    "seen": {
+     "ret": 1.5433,
+     "cagr": 0.3548,
+     "sharpe": 0.778,
+     "maxdd": -0.7948,
+     "days": 1122
+    }
+   },
+   "grid_unseen": {
+    "median_sharpe": -0.254,
+    "pct_positive": 0.175,
+    "pct_beat_bh": 0.997
+   }
+  },
+  "XRP-USD": {
+   "first_candle": "2023-07-13",
+   "n_days": 1203,
+   "main": {
+    "all": {
+     "ret": 1.0958,
+     "cagr": 0.2668,
+     "sharpe": 0.713,
+     "maxdd": -0.5775,
+     "days": 1142
+    },
+    "unseen": null,
+    "seen": {
+     "ret": 1.0958,
+     "cagr": 0.2721,
+     "sharpe": 0.72,
+     "maxdd": -0.5775,
+     "days": 1122
+    }
+   },
+   "bh": {
+    "all": {
+     "ret": 1.63,
+     "cagr": 0.3622,
+     "sharpe": 0.775,
+     "maxdd": -0.7206,
+     "days": 1142
+    },
+    "unseen": null,
+    "seen": {
+     "ret": 1.5366,
+     "cagr": 0.3537,
+     "sharpe": 0.767,
+     "maxdd": -0.7206,
+     "days": 1122
+    }
+   },
+   "trades": {
+    "all": 35,
+    "unseen": 0,
+    "winrate_all": 0.286,
+    "avg_win": 0.4294,
+    "avg_loss": -0.068,
+    "exposure": 0.292
+   },
+   "yearly": {
+    "2023": {
+     "strat": 0.1428,
+     "bh": 0.2387
+    },
+    "2024": {
+     "strat": 1.7235,
+     "bh": 2.3791
+    },
+    "2025": {
+     "strat": -0.3369,
+     "bh": -0.1156
+    },
+    "2026": {
+     "strat": 0.0154,
+     "bh": -0.2896
+    }
+   },
+   "zero": {
+    "all": {
+     "ret": 2.1043,
+     "cagr": 0.4363,
+     "sharpe": 0.994,
+     "maxdd": -0.4006,
+     "days": 1142
+    },
+    "unseen": null,
+    "seen": {
+     "ret": 2.1464,
+     "cagr": 0.4519,
+     "sharpe": 1.012,
+     "maxdd": -0.4006,
+     "days": 1122
+    }
+   },
+   "plain": {
+    "all": {
+     "ret": 1.5064,
+     "cagr": 0.3413,
+     "sharpe": 0.796,
+     "maxdd": -0.5392,
+     "days": 1142
+    },
+    "unseen": null,
+    "seen": {
+     "ret": 1.4173,
+     "cagr": 0.3326,
+     "sharpe": 0.783,
+     "maxdd": -0.5392,
+     "days": 1122
+    }
+   },
+   "std": {
+    "all": {
+     "ret": 0.7286,
+     "cagr": 0.1912,
+     "sharpe": 0.583,
+     "maxdd": -0.6656,
+     "days": 1142
+    },
+    "unseen": null,
+    "seen": {
+     "ret": 0.6672,
+     "cagr": 0.1809,
+     "sharpe": 0.567,
+     "maxdd": -0.6656,
+     "days": 1122
+    }
+   },
+   "grid_unseen": {
+    "median_sharpe": NaN,
+    "pct_positive": 0.0,
+    "pct_beat_bh": null
+   }
+  }
+ },
+ "portfolio_btc_eth_sol": {
+  "from": "2021-08-16",
+  "all": {
+   "ret": 3.9072,
+   "cagr": 0.3579,
+   "sharpe": 1.161,
+   "maxdd": -0.3513,
+   "days": 1898
+  },
+  "unseen": {
+   "ret": 0.2293,
+   "cagr": 0.102,
+   "sharpe": 0.463,
+   "maxdd": -0.3513,
+   "days": 776
+  },
+  "seen": {
+   "ret": 2.9919,
+   "cagr": 0.5688,
+   "sharpe": 1.682,
+   "maxdd": -0.3109,
+   "days": 1122
+  }
+ }
+}
