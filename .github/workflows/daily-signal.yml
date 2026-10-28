@@ -1,0 +1,32 @@
+name: Sinyal harian
+
+on:
+  schedule:
+    - cron: "5 0 * * *"   # 00:05 UTC = 07:05 WIB, tepat setelah candle harian tutup
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-signal
+  cancel-in-progress: false
+
+jobs:
+  signal:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Hitung sinyal dan perbarui paper trading
+        run: python crypto_signal.py
+      - name: Simpan hasil
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add signals state
+          git diff --cached --quiet || git commit -m "Sinyal $(date -u +%Y-%m-%d)"
+          git push
