@@ -1,0 +1,30 @@
+{
+ "start": "2026-10-27",
+ "coins": {
+  "SOL": {
+   "cash": 100.0,
+   "units": 0.0,
+   "last_day": "2026-10-27",
+   "bh_units": 0.9866600790513834,
+   "entry": null,
+   "bh_start_px": 101.2
+  },
+  "ETH": {
+   "cash": 100.0,
+   "units": 0.0,
+   "last_day": "2026-10-27",
+   "bh_units": 0.04254548553410883,
+   "entry": null,
+   "bh_start_px": 2346.9
+  },
+  "BTC": {
+   "cash": 100.0,
+   "units": 0.0,
+   "last_day": "2026-10-27",
+   "bh_units": 0.0012357749738550361,
+   "entry": null,
+   "bh_start_px": 80799.5
+  }
+ },
+ "updated": "2026-10-28 05:07"
+}
