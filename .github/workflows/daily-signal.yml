@@ -2,7 +2,13 @@ name: Sinyal harian
 
 on:
   schedule:
-    - cron: "5 0 * * *"   # 00:05 UTC = 07:05 WIB, tepat setelah candle harian tutup
+    # Jadwal GitHub tidak dijamin tepat waktu: pada jam sibuk (terutama menit :00–:05)
+    # run bisa telat berjam-jam. Karena itu ada beberapa jadwal cadangan di menit yang
+    # sepi. Run pertama yang berhasil mengisi data; run berikutnya otomatis dilewati.
+    - cron: "17 0 * * *"   # 07:17 WIB
+    - cron: "37 0 * * *"   # 07:37 WIB
+    - cron: "13 1 * * *"   # 08:13 WIB
+    - cron: "43 2 * * *"   # 09:43 WIB
   workflow_dispatch: {}
 
 permissions:
@@ -18,15 +24,34 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Cek apakah sinyal hari ini sudah ada
+        id: cek
+        run: |
+          python3 - <<'EOF' >> "$GITHUB_OUTPUT"
+          import json, datetime as dt, os
+          kemarin = (dt.datetime.now(dt.timezone.utc).date() - dt.timedelta(days=1)).isoformat()
+          sudah = False
+          if os.environ.get("GITHUB_EVENT_NAME") == "schedule" and os.path.exists("signals/latest.json"):
+              d = json.load(open("signals/latest.json"))
+              coins = d.get("coins", {})
+              sudah = (not d.get("errors")) and len(coins) == 3 and all(c.get("candle_closed") == kemarin for c in coins.values())
+          print("skip=" + ("true" if sudah else "false"))
+          EOF
+      - if: steps.cek.outputs.skip == 'true'
+        run: echo "Sinyal candle kemarin sudah tersimpan; run cadangan ini dilewati."
+      - if: steps.cek.outputs.skip != 'true'
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - name: Hitung sinyal dan perbarui paper trading
+        if: steps.cek.outputs.skip != 'true'
         run: python crypto_signal.py
       - name: Simpan hasil
+        if: steps.cek.outputs.skip != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add signals state
           git diff --cached --quiet || git commit -m "Sinyal $(date -u +%Y-%m-%d)"
+          git pull --rebase
           git push
